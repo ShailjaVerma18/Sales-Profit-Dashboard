@@ -37,6 +37,7 @@ The project is designed to provide insights into sales performance and customer 
 ---
 
 ## Project Structure
+'''
 Tableau-Sales-Dashboard/
 │── data/
 │ └── Sample_Superstore.xlsx # Dataset
@@ -51,7 +52,7 @@ Tableau-Sales-Dashboard/
 │ └── Line_Chart.png # Screenshot of Line Chart
 │
 │── README.md # Project documentation
-
+'''
 ---
 
 ## Key Steps and Procedures
