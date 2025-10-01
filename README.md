@@ -1,7 +1,7 @@
 # Tableau Sales Dashboard Project
 
 ## Project Overview
-This project demonstrates the creation of an interactive Tableau dashboard using the **Sample Superstore Sales dataset**. The dashboard visualizes sales, profit, order quantity, and customer data across different regions, product categories, and segments. It also showcases the use of calculated fields, filters, and interactivity among multiple visuals.
+This project demonstrates the creation of an interactive Tableau dashboard using the **Sales_Profit_dataset**. The dashboard visualizes sales, profit, order quantity, and customer data across different regions, product categories, and segments. It also showcases the use of calculated fields, filters, and interactivity among multiple visuals.
 
 The project is designed to provide insights into sales performance and customer behavior, making it suitable for business analysis and decision-making.
 
@@ -9,8 +9,7 @@ The project is designed to provide insights into sales performance and customer 
 
 ## Table of Contents
 1. [Dataset](#dataset)  
-2. [Project Structure](#project-structure)  
-3. [Key Steps and Procedures](#key-steps-and-procedures)  
+2. [Key Steps and Procedures](#key-steps-and-procedures)  
    - [Importing Data](#importing-data)  
    - [Creating & Formatting Visuals](#creating--formatting-visuals)  
      - [Bar Chart](#bar-chart)  
@@ -18,14 +17,14 @@ The project is designed to provide insights into sales performance and customer 
      - [Scatter Plot](#scatter-plot)  
      - [Line Chart](#line-chart)  
    - [Creating the Dashboard](#creating-the-dashboard)  
-4. [Key Features](#key-features)  
-5. [Usage](#usage)  
-6. [License](#license)  
+3. [Key Features](#key-features)  
+4. [Usage](#usage)  
+5. [License](#license)  
 
 ---
 
 ## Dataset
-- **Source:** Sample Superstore dataset (Excel file)  
+- **Source:** Sales Profit (Excel file)  
 - **Tables Used:** `Orders`  
 - **Columns:**  
   - Row ID, Order ID, Order Date, Order Priority  
@@ -34,24 +33,6 @@ The project is designed to provide insights into sales performance and customer 
   - Customer Name, City, Zip Code, Customer Segment  
   - Product Category, Product Sub-Category, Product Name  
 
----
-
-## Project Structure
-
-```text
-Tableau-Sales-Dashboard/
-├── data/
-│   └── Sales_Profit.xlsx        # Dataset
-├── dashboard/
-│   └── Sales_Profit.twbx        # Tableau workbook
-├── visuals/
-│   ├── Bar_Chart.png                 # Screenshot of Bar Chart
-│   ├── Pie_Chart.png                 # Screenshot of Pie Chart
-│   ├── Scatter_Plot.png              # Screenshot of Scatter Plot
-│   └── Line_Chart.png                # Screenshot of Line Chart
-├── README.md                         # Project documentation
-└── LICENSE.md                        # MIT License
-'''
 ---
 
 ## Key Steps and Procedures
@@ -125,7 +106,7 @@ Tableau-Sales-Dashboard/
 ---
 
 ## Usage
-1. Open `Tableau_Dashboard.pbix` in **Tableau Desktop Public Edition**.  
+1. Open `Sales_Profit.twbx` in **Tableau Desktop Public Edition**.  
 2. Interact with charts by clicking on segments or using filters.  
 3. Explore insights like top-performing regions, customer segments, and monthly trends.  
 
