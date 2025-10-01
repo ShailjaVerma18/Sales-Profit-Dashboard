@@ -39,7 +39,7 @@ The project is designed to provide insights into sales performance and customer 
 
 ### Importing Data
 1. Open **Tableau Desktop Public Edition**.  
-2. Connect to **Microsoft Excel** and select `Sample Superstore.xlsx`.  
+2. Connect to **Microsoft Excel** and select `Sales_Profit.xlsx`.  
 3. Load the **Orders** table into Tableau.  
 4. Explore columns such as Sales, Profit, Customer Segment, Product Category, and Order Date.  
 
