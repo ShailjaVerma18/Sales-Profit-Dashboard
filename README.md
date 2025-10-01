@@ -37,22 +37,21 @@ The project is designed to provide insights into sales performance and customer 
 ---
 
 ## Project Structure
-'''
+
+```text
 Tableau-Sales-Dashboard/
-│── data/
-│ └── Sample_Superstore.xlsx # Dataset
-│
-│── dashboard/
-│ └── Tableau_Dashboard.pbix # Tableau workbook
-│
-│── visuals/
-│ ├── Bar_Chart.png # Screenshot of Bar Chart
-│ ├── Pie_Chart.png # Screenshot of Pie Chart
-│ ├── Scatter_Plot.png # Screenshot of Scatter Plot
-│ └── Line_Chart.png # Screenshot of Line Chart
-│
-│── README.md # Project documentation
-'''
+├── data/
+│   └── Sales_Profit.xlsx        # Dataset
+├── dashboard/
+│   └── Sales_Profit.twbx        # Tableau workbook
+├── visuals/
+│   ├── Bar_Chart.png                 # Screenshot of Bar Chart
+│   ├── Pie_Chart.png                 # Screenshot of Pie Chart
+│   ├── Scatter_Plot.png              # Screenshot of Scatter Plot
+│   └── Line_Chart.png                # Screenshot of Line Chart
+├── README.md                         # Project documentation
+└── LICENSE.md                        # MIT License
+
 ---
 
 ## Key Steps and Procedures
